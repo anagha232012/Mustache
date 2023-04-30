@@ -1,0 +1,26 @@
+body{
+    text-align: center;
+}
+
+h3{
+    font-size: 25px !important;
+}
+.btn-warning:hover{
+    background-color: rgb(91, 53, 35);
+}
+
+center{
+background-color: rgb(143, 118, 86);
+}
+
+canvas {
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    border-style: dashed;
+    border-color: rgb(56, 36, 10);
+}
+@keyframes example {
+from {box-shadow: 1px 1px 38px burlywood;}
+to {box-shadow: 1px 1px 38px darkkhaki;}
+}
